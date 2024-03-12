@@ -17,16 +17,20 @@
     <div class="container">
         <div class="jumbotron">
             <p class="h3 text-center">Formulário</p>
-            <p class="h3 text-center">para se cadastrar um cliente </p>
+            <p class="h3 text-center">para os doces</p>
         </div>
-        <form>
+        <form action="calcula.php" method="post">
             <div class="form-group">
                 <label for="nome">ID: </label>
                 <input type="text" class="form-control" name="id" placeholder="100">
             </div>
             <div class="form-group">
-                <label for="dataNascimento">nome completo: </label>
-                <input type="text" class="form-control" name="dataNascimento" placeholder="fernanda sousa">
+                <label for="dataNascimento">nome do Doce: </label>
+                <input type="text" class="form-control" name="nome" placeholder="chocomoça">
+            </div>
+            <div class="form-group">
+                <label for="dataNascimento">preços: </label>
+                <input type="text" class="form-control" name="preço" placeholder="preço">
             </div>
               
             <div class="form-group">
